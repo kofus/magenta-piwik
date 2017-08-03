@@ -3,9 +3,13 @@
 namespace Kofus\Piwik;
 
 return array (
+        'listeners' => array(
+            'KofusPiwikListener'
+        ),
+    
 		'service_manager' => array (
 				'invokables' => array (
-						'KofusPiwik' => 'Kofus\Piwik\Service\PiwikService',
+						'KofusPiwikListener' => 'Kofus\Piwik\Listener\PiwikListener',
 				)
 				,
 		),
