@@ -1,0 +1,13 @@
+{
+    "name": "kofus/magenta-piwik",
+    "type": "library",
+    
+    "autoload": {
+        "psr-0": {
+            "Kofus\\Piwik\\": "src/Kofus/Piwik/"
+        },
+        "classmap" : ["Kofus/Piwik/Module.php"]
+    },
+
+}
+
