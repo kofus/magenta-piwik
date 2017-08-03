@@ -7,7 +7,6 @@
             "Kofus\\Piwik\\": "src/Kofus/Piwik/"
         },
         "classmap" : ["Kofus/Piwik/Module.php"]
-    },
-
+    }
 }
 
